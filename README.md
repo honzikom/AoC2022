@@ -11,3 +11,7 @@ Today me and my friend were solving AoC at frinds cottage, where a boardgame wee
 
 ## Day04
 Yesterady Atom (IDE I used for Julia) broke for me and I wasn't able to repair it. Therefore I switched to Visual Studio Code and need to learn it's features. Fira Mono Code ligatures are working, so everything is fine :) The puzzle intself was really easy, hower the constant need od reducing objects in Julia feels unhandy.
+
+## Day05
+The biggest issue was loading data. After some thoughtful thinking I decided to split input into "crates" and "moves" (input part1 and input part2). Moves are straightforward, easy splitting. I decided to setup crates as character matrix and pull columns with letters into vector of vectors. Suprisingly I had mistake in my code that solved Star II before Start I (missing reverse). 
+It was fun!
