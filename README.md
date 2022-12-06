@@ -15,3 +15,6 @@ Yesterady Atom (IDE I used for Julia) broke for me and I wasn't able to repair i
 ## Day05
 The biggest issue was loading data. After some thoughtful thinking I decided to split input into "crates" and "moves" (input part1 and input part2). Moves are straightforward, easy splitting. I decided to setup crates as character matrix and pull columns with letters into vector of vectors. Suprisingly I had mistake in my code that solved Star II before Start I (missing reverse). 
 It was fun!
+
+# Day06
+I hoped for something more difficult since i had 2 hours of *free* time during meeting. I was afraid of part II what comes, but my code didn't need any changes except for some constants.
