@@ -16,8 +16,11 @@ Yesterady Atom (IDE I used for Julia) broke for me and I wasn't able to repair i
 The biggest issue was loading data. After some thoughtful thinking I decided to split input into "crates" and "moves" (input part1 and input part2). Moves are straightforward, easy splitting. I decided to setup crates as character matrix and pull columns with letters into vector of vectors. Suprisingly I had mistake in my code that solved Star II before Start I (missing reverse). 
 It was fun!
 
-# Day06
+## Day06
 I hoped for something more difficult since i had 2 hours of *free* time during meeting. I was afraid of part II what comes, but my code didn't need any changes except for some constants.
 
-#Day07
+## Day07
 This puzzle really seemed worse then it actually was. The problem was to come up with good structure for the problem - I decided to create /the/path/to/every/file.smh. This way, i had list of every directory, list of every file and all I had to do was for each directory find what file paths have this directory as substring. The part II was really easy with this structure, but I think for other approaches (like nested dirs) it could be difficult. 
+
+## Day08
+I like problems that work with matrices. You know, that's what we statisticians do. So the idea was simple, the implementation could be simplified (there are too many if-elses), but overall I'm pretty happy. There's no need to create the best-looking code for one-time-only occasion such us AoC. 
