@@ -24,3 +24,6 @@ This puzzle really seemed worse then it actually was. The problem was to come up
 
 ## Day08
 I like problems that work with matrices. You know, that's what we statisticians do. So the idea was simple, the implementation could be simplified (there are too many if-elses), but overall I'm pretty happy. There's no need to create the best-looking code for one-time-only occasion such us AoC. 
+
+## Day09
+I don't like my solutions that are if-elseif-elseif-else trees. There must be somue more elegant way to implement the movement, but this way I didn't need to thin ktoo hard. Solution for part I didn't work as inteded, but there were good examples provided so I added an Euclidean distance check to determine if the tail moves at all. Part II was basically adding another loop inside this solution, so this wasn't too hard. I'm only sorry that I wake up late and had a meeting so I wasn't able to finish this puzzle eartlier :(  
